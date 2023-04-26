@@ -1,0 +1,12 @@
+# This is a basic workflow that is manually triggered
+
+name: First Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Actions demo"
+      - name: Print over
+        run: echo "complete"
